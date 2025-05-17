@@ -1156,13 +1156,14 @@ function drawTrackInfo(deltaTime)
 
 	-- TRACK DIFFICULTY LEVEL
 	gfx.BeginPath()
+    gfx.TextAlign(gfx.TEXT_ALIGN_LEFT + gfx.TEXT_ALIGN_TOP)
 	gfx.FontSize(20)
 	FillColor(245, 65, 125)
-	gfx.Text(string.format("%02d", gameplay.level), 61, 95.8)
+	gfx.Text(string.format("%02d", gameplay.level), 61, 88.8)
 	FillColor(55, 255, 255)
-	gfx.Text(string.format("%02d", gameplay.level), 61.8, 95)
+	gfx.Text(string.format("%02d", gameplay.level), 61.8, 88)
 	FillColor(255, 255, 255)
-	gfx.Text(string.format("%02d", gameplay.level), 61, 95)
+	gfx.Text(string.format("%02d", gameplay.level), 61, 88)
 
 
 	-- JACKET
