@@ -53,6 +53,13 @@ https://drive.google.com/open?id=14cLldFq0XaaqEj-qoB_5L51PLU_WpOeL
 
 Changelog:
 
+May 18, 2025
+
+- Fix background white edge.
+
+- Known issue:  
+  Snow, sakura background not works, need Rust USC fix it.
+
 May 17, 2025
 
 - Refactor for Rust version of USC.
