@@ -1,64 +1,63 @@
-{
-	"username":
+[
+	{
+		"v": "Gameplay:",
+		"type": "label"
+	},
 	{
 		"type": "text",
 		"label": "Username",
-		"default": "GUEST"
+		"default": "GUEST",
+		"name": "username"
 	},
-
-	"earlate_position":
 	{
 		"type": "selection",
 		"label": "Early/Late Position",
 		"default": "Bottom",
-		"values": ["Bottom", "Middle", "Upper", "Upper+", "Off"]
+		"values": ["Bottom", "Middle", "Upper", "Upper+", "Off"],
+		"name": "earlate_position"
 	},
-
-	"skill_level":
 	{
 		"type": "selection",
 		"label": "Skill Level",
 		"default": "none",
-		"values": ["none", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "inf"]
+		"values": ["none", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "inf"],
+		"name": "skill_level"
 	},
-
-	"Clear Effect" : {"type" : "label"},
-	"clear_effect":
 	{
 		"type": "bool",
-		"label": "On/Off",
-		"default": true
+		"label": "Clear Effect On/Off",
+		"default": true,
+		"name": "clear_effect"
 	},
-
-	"Display Chain" : {"type" : "label"},
-	"display_chain":
 	{
 		"type": "bool",
-		"label": "On/Off",
-		"default": true
+		"label": "Display Chain On/Off",
+		"default": true,
+		"name": "display_chain"
 	},
-
-	"Display User Info" : {"type" : "label"},
-	"display_user_info":
 	{
 		"type": "bool",
-		"label": "On/Off",
-		"default": true
+		"label": "Display User Info On/Off",
+		"default": true,
+		"name": "display_user_info"
 	},
-
-	"Display Score Difference" : {"type" : "label"},
-	"display_score_diff":
+	{
+		"type": "separator"
+	},
+	{
+	"v": "Result:",
+	"type": "label"
+	},
 	{
 		"type": "bool",
-		"label": "On/Off",
-		"default": true
+		"label": "Display Score Difference On/Off",
+		"default": true,
+		"name": "display_score_diff"
 	},
-
-	"Display Volforce" : {"type" : "label"},
-	"display_volforce":
 	{
 		"type": "bool",
-		"label": "On/Off",
-		"default": true
+		"label": "Display Volforce On/Off",
+		"default": true,
+		"name": "display_volforce"
 	}
-}
+]
