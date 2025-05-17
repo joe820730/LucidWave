@@ -196,6 +196,8 @@ void main()
 
     vec4 col = texture(mainTex, vec2(rot/4.0,mod(texY/4.0,0.25) + floor(clearTransition) * 0.2578125));
     vec4 clear_col = texture(mainTex, vec2(rot/4.0,mod(texY/4.0,0.25) + 0.2578125));
+    col.rgb *= col.a;
+    clear_col.rgb *= clear_col.a;
 
     col.rgb = mix(col,clear_col * 2.4,clearTransition).rgb;
     target.xyz = col.xyz * 1.8;
