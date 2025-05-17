@@ -53,6 +53,14 @@ https://drive.google.com/open?id=14cLldFq0XaaqEj-qoB_5L51PLU_WpOeL
 
 Changelog:
 
+May 17, 2025
+
+- Refactor for Rust version of USC.
+
+- Known issue:  
+    The text position of map level is incorrect in auto play mode.  
+    Incorrect background texture.  
+
 March 19, 2020
 
 - New landscape menus (titlescreen, song select, and results)
