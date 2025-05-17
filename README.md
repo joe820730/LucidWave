@@ -59,7 +59,6 @@ May 17, 2025
 
 - Known issue:  
     The text position of map level is incorrect in auto play mode.  
-    Incorrect background texture.  
 
 March 19, 2020
 

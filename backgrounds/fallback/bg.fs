@@ -189,12 +189,12 @@ void main()
 	//END PARTICLES
 
     float rot = (atan(point_diff.x,point_diff.y) + BaseTexRotation) / TWO_PI;
-	float clear_bright = 0.8 + timing.y * 0.2;
+	//float clear_bright = 0.8 + timing.y * 0.2;
 
     vec4 col = texture(mainTex, vec2(rot/4.0,mod(texY/4.0,0.25) + floor(clearTransition) * 0.2578125));
     vec4 clear_col = texture(mainTex, vec2(rot/4.0,mod(texY/4.0,0.25) + 0.2578125));
 
-    col.rgb = mix(col,clear_col * clear_bright,clearTransition).rgb;
+    col.rgb = mix(col,clear_col,clearTransition).rgb;
     target.xyz = col.xyz * 2.0;
     target.a = col.a * fog;
 	
