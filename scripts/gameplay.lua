@@ -1158,11 +1158,11 @@ function drawTrackInfo(deltaTime)
 	gfx.BeginPath()
 	gfx.FontSize(20)
 	FillColor(245, 65, 125)
-	gfx.Text(string.format("%02d", gameplay.level), 59, 101.8)
+	gfx.Text(string.format("%02d", gameplay.level), 61, 95.8)
 	FillColor(55, 255, 255)
-	gfx.Text(string.format("%02d", gameplay.level), 59.8, 101)
+	gfx.Text(string.format("%02d", gameplay.level), 61.8, 95)
 	FillColor(255, 255, 255)
-	gfx.Text(string.format("%02d", gameplay.level), 59, 101)
+	gfx.Text(string.format("%02d", gameplay.level), 61, 95)
 
 
 	-- JACKET
@@ -1271,11 +1271,11 @@ function drawTrackInfo(deltaTime)
 		-- USERNAME
 		gfx.TextAlign(gfx.TEXT_ALIGN_LEFT)
 		FillColor(245, 65, 125)
-		gfx.DrawLabel(displayUser, 75, 266.8, 126)
+		gfx.DrawLabel(displayUser, 77, 289.8, 126)
 		FillColor(55, 255, 255)
-		gfx.DrawLabel(displayUser, 75.8, 266, 126)
+		gfx.DrawLabel(displayUser, 77.8, 289, 126)
 		FillColor(255, 255, 255)
-		gfx.DrawLabel(displayUser, 75, 266, 126)
+		gfx.DrawLabel(displayUser, 77, 289, 126)
 		gfx.FontSize(24)
 
 		-- SCORE DIFFERENCE
